@@ -1,0 +1,32 @@
+<div class="container-fluid mt-4">
+    <div class="card">
+        <table class="card-header" >
+            <thead class="card-header card-body">
+                <tr>
+                    <td>Numero de Prioridad</td>
+                    <td>Titulo</td>
+                    <td>Descripcion</td>
+                    <td>Nota</td>
+                    <td>Dinero necesario</td>
+                    <td>Meta</td>
+                    <td>Acciones</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of servicio.lEstudiante; let i= index">
+                    <td>{{item.carnet}}</td>
+                    <td>{{item.nombre}}</td>
+                    <td>{{item.apellido1}}</td>
+                    <td>{{item.apellido2}}</td>
+                    <td>{{item.telefono}}</td>
+                    <td>{{item.carrera}}</td>
+                    <td>
+                        <button class="btn btn-secondary" (click)="editar(item)">Editar</button>
+                        <button class="btn btn-danger" (click)="eliminar(item)">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
