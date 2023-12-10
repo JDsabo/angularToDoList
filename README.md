@@ -1,6 +1,6 @@
 # 5/4/2023
 <h1>Created by Sabo</h1>
-After downloading and extracting, use "npm install --force" on the terminal of your code editor to install all the necessary dependencies, then use "ng serve --open" to execute the app. "CTRL + C" to close app. Go to https://angular.io/docs to learn more about Angular.
+After downloading and extracting, use "npm install --force" on the terminal of your code editor to install all the necessary dependencies, then use "ng serve --open" to execute the app. "CTRL + C" on the terminal to close app. Go to https://angular.io/docs to learn more about Angular.
 <br>
 <br>
 
