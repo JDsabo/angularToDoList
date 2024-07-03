@@ -1,5 +1,5 @@
 <h1>Angular To-Do list created by Sabo</h1>
-After downloading and extracting, use "npm install --force" on the terminal of your code editor to install all the necessary dependencies, then use "ng serve --open" to execute the app. "CTRL + C" on the terminal to close app. Integrations need to be re-done if you want to add your own data base, go to https://firebase.google.com/docs/guides to learn Firebase.
+After downloading and extracting, use "npm install --force" on the terminal of your code editor to install all the necessary dependencies, then use "ng serve --open" to execute the app. "CTRL + C" on the terminal to close app. Integrations need to be re-done if you want to add your own data base, go to https://firebase.google.com/docs/guides to learn Firebase
 <br>
 <br>
 Go to https://angular.io/docs to learn more about Angular.
